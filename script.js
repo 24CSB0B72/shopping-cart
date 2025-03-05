@@ -15,8 +15,8 @@ class Cart {
     }
 
     addItem(product) {
-        const addedTime = new Date().toLocaleString();  // Capture the time when the item is added
-        this.items.push({ ...product, addedTime });  // Add the product with the added time
+        const addedTime = new Date().toLocaleString();
+        this.items.push({ ...product, addedTime });
     }
 
     removeItem(productId) {
@@ -91,7 +91,7 @@ const products = [
     new Product(4, 'Moon Lamp 3D 7 Color Changing Moon Light Night Table lamp for Bedroom for Adults and Kids Home Room Beautiful Indoor Lighting Home Decoration-15CM, LED, acrylic', 1500, 1900, 'assets/moon.jpg'),
     new Product(5, '3D Galaxy Crystal Ball Night Light | Dimmable Engraved LED Glass Ball Table Lamp with USB and Wooden Base for Home Decor, Office, Birthday Gift & Kids Bedroom (Saturn)', 700, 900, 'assets/planets.jpg'),
     new Product(6, 'Apple 2024 MacBook Air (13-inch, Apple M3 chip with 8‑core CPU and 8‑core GPU, 16GB Unified Memory, 256GB) - Midnight', 107000, 190000, 'assets/mbp.jpg'),
-    new Product(6, 'Yuva Go Android 13.0 Smart Projector, 2X Brighter, 1080P & 4K Support, Rotatable Design, Auto & 4D Keystone with Netflix, Prime etc, WiFi 6 & BT, Screen Mirroring, ARC, 720P Native', 7000, 9000, 'assets/projector.jpg')
+    new Product(7, 'Yuva Go Android 13.0 Smart Projector, 2X Brighter, 1080P & 4K Support, Rotatable Design, Auto & 4D Keystone with Netflix, Prime etc, WiFi 6 & BT, Screen Mirroring, ARC, 720P Native', 7000, 9000, 'assets/projector.jpg')
 ];
 
 const cart = new Cart();
